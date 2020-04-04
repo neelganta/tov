@@ -23,6 +23,30 @@ Ideas for improvements:
 - Maybe show source dataframes somewhere to easier understand what is possible with the data
 - Create an animation automatically incrementing the year every 4 seconds or so.
 """
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import sklearn
+
+# advanced algorthms
+from sklearn.neural_network import MLPClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.svm import SVC
+
+#import decisiontreeclassifier
+from sklearn.tree import DecisionTreeClassifier
+#import logisticregression classifier
+from sklearn.linear_model import LogisticRegression
+
+#for validating your classification model
+from sklearn.model_selection import  cross_val_score, train_test_split
+from sklearn import metrics
+from sklearn.metrics import roc_auc_score
+from sklearn.ensemble import RandomForestClassifier
+
+# feature selection
+from sklearn.feature_selection import SelectKBest
+from sklearn.feature_selection import chi2
 
 from io import BytesIO
 
