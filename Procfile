@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run bosa.py
+web: sh setup.sh && streamlit run brooklyn.py
