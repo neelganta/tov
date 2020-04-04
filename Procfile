@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run nets_bosa.py
+web: sh setup.sh && streamlit run roster_turnover.py
